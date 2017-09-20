@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Resume  Ready</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="label_welcome">Welcome</string>
+    <string name="label_btech">B.Tech</string>
+    <string name="label_bca">BCA</string>
+    <string name="label_mca">MCA</string>
+    <string name="label_mba">MBA</string>
+    <string name="label_other">Other</string>
+
+    <string name="hint_name">Full Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_mobile">Mobile</string>
+    <string name="hint_qualification">enter qualification</string>
+
+    <string name="btn_proceed">proceed</string>
+
+    <string name="err_msg_name">Enter your full name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_mobile">Enter valid mobile number</string>
+    <string name="label_qualification">Select Qualification</string>
+    <string name="label_name">name</string>
+    <string name="label_email">email</string>
+    <string name="label_mobile">mobile</string>
+    <string name="label_gender">gender</string>
+    <string name="label_qual">qualification</string>
+    <string name="label_male">Male</string>
+    <string name="dummy_email">john@doe.com</string>
+    <string name="dummy_name">John Doe</string>
+    <string name="dummy_contact">(123) 456-7890</string>
+</resources>

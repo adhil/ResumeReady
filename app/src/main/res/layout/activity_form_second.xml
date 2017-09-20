@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.batcodes.resumeready.FormSecondActivity">
+
+    <TextView
+        android:id="@+id/mainTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/label_welcome" />
+
+    <TextView
+        android:id="@+id/selectionTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/label_qualification" />
+
+    <CheckBox
+        android:id="@+id/btechCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/label_btech"
+        android:onClick="selectQual"/>
+
+    <CheckBox
+        android:id="@+id/bcaCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/label_bca"
+        android:onClick="selectQual"/>
+
+    <CheckBox
+        android:id="@+id/mcaCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/label_mca"
+        android:onClick="selectQual"/>
+
+    <CheckBox
+        android:id="@+id/mbaCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/label_mba"
+        android:onClick="selectQual"/>
+
+    <CheckBox
+        android:id="@+id/otherCheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/label_other"
+        android:onClick="selectQual"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_mobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/otherField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="@string/hint_qualification" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="proceed"
+        android:onClick="proceedFun"/>
+
+</LinearLayout>
